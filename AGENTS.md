@@ -21,7 +21,7 @@ Komodo deploy mechanics, and the secrets policy are all documented there.
 - **The provider is the hermes stack.** `OPENAI_API_BASE_URL` is
   `http://litellm:4000/v1` on `hermes-net`; `ENABLE_OLLAMA_API=false`.
 - **SSO is Zitadel.** Local login is disabled. The OIDC app redirect is
-  `https://chat.teva.services/oauth/callback`; the domain fence is
+  `https://chat.teva.services/oauth/oidc/callback`; the domain fence is
   `tevaservices.com`. The app lives in the Teva Zitadel org.
 - **State is the pinned volume.** `open-webui-data` is explicitly
   `openwebui_open-webui-data`; renaming it starts chat history empty. Do not

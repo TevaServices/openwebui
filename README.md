@@ -51,7 +51,7 @@ prints `200`.
 
 - Issuer: `https://login.tevaservices.com`
 - Discovery: `https://login.tevaservices.com/.well-known/openid-configuration`
-- Redirect URI: `https://chat.teva.services/oauth/callback`
+- Redirect URI: `https://chat.teva.services/oauth/oidc/callback`
 - Domain fence: `OAUTH_ALLOWED_DOMAINS=tevaservices.com`
 - Local login: disabled (`ENABLE_LOGIN_FORM=false`)
 - `ADMIN_EMAIL` seeds the first administrator.
